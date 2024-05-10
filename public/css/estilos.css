@@ -1,0 +1,58 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#lienzo {
+    display: block;
+    margin: 0px auto;
+}
+
+#resetButton {
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    border: none;
+    background: #07f;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+#resetButton:hover {
+    background: #0053b3;
+    color: #d6d6d6;
+}
+
+.marcadores {
+    position: relative;
+    width: 100%;
+}
+
+.marcador {
+    position: absolute;
+}
+
+#marcador1 {
+    top: 120px;
+    left: 10%;
+}
+
+#marcador2 {
+    top: 120px;
+    right: 10%;
+}
+
+.marcadores img {
+    position: absolute;
+    top: 20px;
+}
+
+.marcadores .img1 {
+    left: 10%;
+}
+
+.marcadores .img2 {
+    right: 10%;
+}
